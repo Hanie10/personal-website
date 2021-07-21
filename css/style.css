@@ -1,0 +1,47 @@
+body
+    {
+    	background-image: url(../image/background.jpg);
+               font-family: fantasy;
+               text-align:center;
+               font-size: 18pt
+    }
+
+.background{
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/background.jpg);
+    background-size: cover;
+    overflow-y: auto;
+}    
+
+a:link, a:visited
+    {
+    	background-color:#2a4d69;
+    	color:#39224f;
+    	text-decoration: none;
+    	padding: 15px;
+    	text-align: center;
+    	display: inline-block;
+    	font-family: verdana;
+    } 
+
+a:visited
+    {
+    	color:#003366;
+    	background-color:#bacad7;
+    	text-decoration: none;
+    }       
+
+ a:hover
+    {
+    	color:#2f204b;
+    	background-color: #e35d6a;
+    	text-decoration: underline;
+    }
+
+ a:active
+    {
+    	color:#a3c1ad;
+    	background-color:#2c3945;
+    	text-decoration: underline;
+    }  
